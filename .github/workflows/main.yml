@@ -1,2 +1,6 @@
 name: Anusha-Test
-on:[push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
